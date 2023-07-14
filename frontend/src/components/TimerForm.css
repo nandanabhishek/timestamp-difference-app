@@ -1,0 +1,27 @@
+.timer-form {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  .timer-form .form-group {
+    margin-bottom: 20px;
+  }
+  .timer-form label {
+    font-weight: bold;
+  }
+  .timer-form input[type="datetime-local"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  .timer-form button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
