@@ -9,7 +9,7 @@ const App = () => {
 
   const calculateDifference = (startTime, endTime) => {
     axios
-      .get('http://localhost:3001/api/time-difference', {
+    .get('/api/time-difference', {
         params: { startTime, endTime },
       })
       .then((response) => {
