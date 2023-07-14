@@ -9,7 +9,7 @@ const App = () => {
 
   const calculateDifference = (startTime, endTime) => {
     axios
-    .get('/api/time-difference', {
+    .get('https://timestamp-difference-app.onrender.com/api/time-difference', {
         params: { startTime, endTime },
       })
       .then((response) => {
